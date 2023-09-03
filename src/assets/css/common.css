@@ -1,0 +1,27 @@
+* {
+  /* 去除浏览器默认内外边距 */
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 去除input的轮廓 */
+input {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  /* 溢出隐藏 */
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 渐变方向从左到右 */
+  background: linear-gradient(to right, rgb(247, 209, 215), rgb(191, 227, 241));
+}
